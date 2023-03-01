@@ -1,0 +1,72 @@
+h1 {
+    background-color:rgb(255, 255, 255) ;
+    text-align: center;
+    padding: 1rem;
+    border: 3px solid rgb(123, 148, 134) ;
+    border-radius: 1rem;
+}
+
+.fondos {
+    background-color: rgb(139, 238, 205);
+}
+
+ .cvtitulo{
+   background-color:#1fcc9bb0 ;
+  }
+ 
+  .resumen {  
+    text-align: center;
+    padding: 1rem;
+    border: 3px solid rgb(123, 148, 134) ;
+    border-radius: 1rem;
+    margin-left: 40%;
+}
+
+
+  
+  h2 {
+    text-align: center;
+    width: 130px;
+    padding: 0.3rem;
+    margin: 3rem;
+    border: 5px solid rgb(123, 148, 134);
+    border-radius: 1rem;
+    background-color: white;
+    margin-left: 30%;
+  }
+  
+ 
+    
+
+ .diseño{
+   
+    background-color: rgb(237, 222, 247);
+    height: 100vh;
+    display:grid ;
+    grid-template: 
+    "cvtitulo cvtitulo"
+    "aside sectioncv2";
+  }
+  
+  .titulo{
+    grid-area: cvtitulo;
+    
+    
+  }
+  
+  .sectioncv{
+    grid-area: aside;
+    width: 400px;
+    background-color: rgb(224, 185, 208);
+    
+  }
+  
+  .sectioncv2{
+    grid-area: sectioncv2;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    
+  }
